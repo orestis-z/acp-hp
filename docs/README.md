@@ -1,25 +1,31 @@
 ---
 layout: Homepage
 description: 'The biography and information about me.'
-avatar: /profile.jpg
+avatar: /9963.png
 face: /kraken.jpg
-head: 'Hello Kraken'
-info: 'The kraken is a legendary'
-interests: 'The address of this project is here. If you are interested, please star. Thank you very much.'
+head: 'Hello Particle'
+# info: ''
+# interests: 'The address of this project is here. If you are interested, please star. Thank you very much.'
 socials:
-- title: github
-  link: https://github.com/nordicgiant2/vue-nice-homepage
-- title: linkedin
-  link: https://www.linkedin.com
-- title: instagram
-  link: https://www.instagram.com
+- title: opensea
+  link: https://opensea.io/collection/anti-cryptopunks
+- title: discord
+  link: https://discord.gg/WvGnnXQPV5
+- title: twitter
+  link: https://twitter.com/anti_cryptopunk
 - title: email
-  link: 'mailto:harry[at]gmail.com'
+  link: 'mailto:anticryptopunks[at]gmaiprotonmail.com'
 actions:
-- text: Projects
-  link: /projects/
-- text: Github
-  link: https://github.com/nordicgiant2/vue-nice-homepage
+- text: OpenSea
+  link: https://opensea.io/collection/anti-cryptopunks
+- text: Discord
+  link: https://discord.gg/WvGnnXQPV5
+- text: Twitter
+  link: https://twitter.com/anti_cryptopunk
 ---
 
-The kraken is a legendary cephalopod-like sea monster of giant size in Scandinavian folklore. According to the Norse sagas, the kraken dwells off the coasts of Norway and Greenland and terrorizes nearby sailors. Authors over the years have postulated that the legend may have originated from sightings of giant squids that may grow to 13–15 meters in length. :dizzy:
+We are from the antimatter universe.
+
+Anti CryptoPunks are the antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first _AntiVerse_ project.
+
+We have NO affiliation with LarvaLabs.

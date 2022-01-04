@@ -1,28 +1,39 @@
 module.exports = {
-  title: "Hello Kraken",
+  title: "Anti CryptoPunks",
   description: "The description of the site.",
-  head: [["link", { rel: "icon", href: `/logo.png` }]],
   dest: "./dist",
-  base: "/vue-nice-homepage-page/",
   themeConfig: {
+    logo: '/logo-bold.png',
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Projects", link: "/projects/" },
-      { text: "Guide", link: "/guide/" },
-      { text: "GitHub", link: "https://github.com/nordicgiant2/vue-nice-homepage" }
+      { text: "Buy a Punk", link: "/#buy" },
+      { text: "Roadmap", link: "/#roadmap" },
+      { text: "Team", link: "/#team" },
+      { text: "Discord", link: "https://discord.gg/WvGnnXQPV5" },
+      { text: "OpenSea", link: "https://opensea.io/collection/anti-cryptopunks" },
+      { text: "Twitter", link: "https://twitter.com/anti_cryptopunk" }
     ],
     sidebar: {
       '/guide/': genSidebarConfig('Guide')
     },
-    lastUpdated: 'Last Updated'
+    lastUpdated: "01-04-2022"
   },
 
   markdown: {
     anchor: { permalink: false },
     config: md => {
       md.use(require("markdown-it-katex"));
-    }
-  }
+    },
+  },
+
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': '' // UA-00000000-0
+      }
+    ],
+    'vuepress-plugin-smooth-scroll'
+  ]
 };
 
 function genSidebarConfig (title) {

@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap')
+@import 'override.styl'
+
+@font-face
+    font-family: Nourd
+    src: local(Nourd), url(/Nourd-Heavy.woff2) format('woff2')
+    font-weight: 800
+    font-style: normal
+
+body
+    font-family: 'Rubik', sans-serif
+    letter-spacing: 0.02em
+    font-size: 18px;
+
+
 // disable the search box
 .search-box
   display none
@@ -5,3 +20,46 @@
 // disable outbound link icon
 .icon.outbound
   display none
+
+.navbar
+    background-color: black
+    border-bottom: none
+    // color: rgba(255,255,255,0.9)
+
+    .site-name
+        // background-color: black
+        color: rgba(255,255,255,0.9)
+
+    .links
+        background-color: black
+        color: rgba(255,255,255,0.9)
+        font-family: Nourd
+
+.sidebar
+    background-color: black
+    border: none
+
+    // color: rgba(255,255,255,0.9)
+
+    .site-name
+        // background-color: black
+        color: rgba(255,255,255,0.9)
+
+    .nav-item
+        background-color: black
+        color: rgba(255,255,255,0.9)
+
+    .nav-links
+        border: none
+        font-family: Nourd
+
+.nav-links a:hover, .nav-links a.router-link-active
+    color: $activeColor
+
+.icon
+    color: rgba(255,255,255,0.9)
+
+.page
+    background-color: black
+    color: rgba(255,255,255,0.9)
+

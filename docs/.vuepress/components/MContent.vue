@@ -1,24 +1,21 @@
 <template>
-  <div>
-  </div>
+  <div></div>
 </template>
 
 <script>
 import markdownIt from "markdown-it";
 import emoji from "markdown-it-emoji";
-
 export default {
   props: {
     content: {
       default: "",
-      type: String
+      type: String,
     },
     inline: {
       default: false,
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
-
   mounted() {
     var md = new markdownIt().use(emoji);
     var result;
@@ -28,10 +25,9 @@ export default {
       result = md.render(this.content);
     }
     this.$el.innerHTML = result;
-  }
+  },
 };
 </script>
 
 <style>
-
 </style>
