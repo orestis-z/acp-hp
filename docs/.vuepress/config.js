@@ -1,7 +1,6 @@
 module.exports = {
   title: "Anti CryptoPunks",
   description: "The description of the site.",
-  dest: "./dist",
   themeConfig: {
     logo: '/logo-bold.png',
     nav: [
