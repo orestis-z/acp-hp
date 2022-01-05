@@ -1,3 +1,4 @@
 {
-    "root": "./docs/.vuepress/dist"
+    "root": "./docs/.vuepress/dist",
+    "https_only": true
 }

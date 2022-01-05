@@ -169,38 +169,32 @@
             We are in this for the long haul. <br /><br />
             We have set up some goalposts for ourselves: <br />
             <ul>
-              <li class="done">
-                Mining and early adaptors
+              <li class="done">Mining and early adaptors
                 <em class="info">completed when all 10k ACPs minted</em>
               </li>
-              <li>
-                First community growth stage
+              <li>First community growth stage
                 <em class="info"
                   >completed when 500 users on both discord and twitter, and 0.1
                   ETH volume traded</em
                 >
               </li>
-              <li>
-                Second growth stage: Social media marketing, influencers & paid
+              <li>Second growth stage: Social media marketing, influencers & paid
                 promotion
                 <em class="info"
                   >completed when 5k users on discord and twitter and 1 ETH
                   volume traded</em
                 >
               </li>
-              <li>
-                Solidify market position as a high-demand NFT
+              <li>Solidify market position as a high-demand NFT
                 <em class="info">completed when 100 ETH volume traded</em>
               </li>
             </ul>
             <br />Here are our sneak-peeks for the future: <br />
             <ul>
-              <li>
-                Invest the profits into the creation of the
+              <li>Invest the profits into the creation of the
                 <em>AntiVerse</em> and whitelist all ACP holders
               </li>
-              <li>
-                Build partnerships and add more anti-projects to the AntiVerse
+              <li>Build partnerships and add more anti-projects to the AntiVerse
               </li>
             </ul>
           </div>
