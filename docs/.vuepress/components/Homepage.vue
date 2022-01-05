@@ -273,10 +273,34 @@
             <img src="/twitter.svg" />
           </a>
         </div>
-        <div
-          class="mooform"
-          data-mooform-id="c9557578-0028-400c-bc2b-4d852d03713e"
-        ></div>
+        <div class="subscribe">
+          <div class="title smaller"><em>GET ON THE LIST</em></div>
+          <mailchimp-subscribe
+            url="https://anticryptopunks.us20.list-manage.com/subscribe/post-json"
+            user-id="568e0b445e51871f094b00bae"
+            list-id="920b21ff83"
+            @error="onError"
+            @success="onSuccess"
+          >
+            <template v-slot="{ subscribe, setEmail, error, success, loading }">
+              <form @submit.prevent="subscribe">
+                <fieldset>
+                  <input
+                    type="email"
+                    @input="setEmail($event.target.value)"
+                    placeholder="Email"
+                  />
+                  <button type="submit">Subscribe</button>
+                </fieldset>
+                <div v-if="error">
+                  <em>{{ error }}</em>
+                </div>
+                <div v-if="success"><em>Subscribed, yay!</em></div>
+                <div v-if="loading"><em>Loading…</em></div>
+              </form>
+            </template>
+          </mailchimp-subscribe>
+        </div>
         <small><a href="/terms/">Terms & Conditions</a></small>
         <small>© 2022 AntiMatter Labs LLC</small>
       </div>
@@ -286,7 +310,12 @@
 </template>
 
 <script>
+import MailchimpSubscribe from "vue-mailchimp-subscribe";
+
 export default {
+  components: {
+    MailchimpSubscribe,
+  },
   data() {
     return {
       particlesBgComp: null,
@@ -296,51 +325,11 @@ export default {
     bgProps() {
       if (this.particlesBgComp) {
         return { bg: true, type: "lines" };
-        // return { bg: true, type: "lines", color: "#1e1e1e" };
       }
     },
     data() {
       return this.$page.frontmatter;
     },
-  },
-  methods: {
-    loadMoosForm() {
-      if (!window.mootrack) {
-        !(function (t, n, e, o, a) {
-          function d(t) {
-            var n = ~~(Date.now() / 3e5),
-              o = document.createElement(e);
-            (o.async = !0), (o.src = t + "?ts=" + n);
-            var a = document.getElementsByTagName(e)[0];
-            a.parentNode.insertBefore(o, a);
-          }
-          (t.MooTrackerObject = a),
-            (t[a] =
-              t[a] ||
-              function () {
-                return t[a].q
-                  ? void t[a].q.push(arguments)
-                  : void (t[a].q = [arguments]);
-              }),
-            window.attachEvent
-              ? window.attachEvent("onload", d.bind(this, o))
-              : window.addEventListener("load", d.bind(this, o), !1);
-        })(
-          window,
-          document,
-          "script",
-          "https://cdn.stat-track.com/statics/moosend-tracking.min.js",
-          "mootrack"
-        );
-      }
-      mootrack("loadForm", "c95575780028400cbc2b4d852d03713e");
-    },
-    // checkLoadMoos() {
-    //   const mooEls = document.getElementsByClassName("mooform");
-    //   console.log(mooEls);
-    //   console.log(mooEls.length, mooEls[0].innerHTML);
-    //   if (!mooEls.length || !mooEls[0].innerHTML) this.loadMoosForm();
-    // },
   },
   mounted() {
     import("particles-bg-vue").then((module) => {
@@ -353,17 +342,13 @@ export default {
         item.setAttribute("rel", "noopener");
       }
     }
-
-    this.loadMoosForm();
   },
-  //   updated() {
-  //     setTimeout(this.checkLoadMoos, 1000);
-  //   },
 };
 </script>
 
 <style lang="stylus">
 @import './styles/config.styl';
+@import '../override.styl';
 
 html {
   scroll-behavior: smooth;
@@ -377,6 +362,76 @@ body {
     padding: 2.4rem 2rem 0;
   }
 
+  form {
+    margin-top: 0.4em;
+    margin-bottom: 0.5em;
+
+    fieldset {
+      font-size: 1em;
+      padding: 0em;
+      font-family: sans-serif;
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      border-width: 2px;
+      border-color: $accentColor;
+      border-style: solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      input {
+        max-width: 350px;
+        width: 40vw;
+        font-size: inherit;
+        height: 1.6em;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        // border-width: 2px;
+        // border-color: $accentColor;
+        // border-style: solid;
+        padding: 0.5em;
+        -moz-box-sizing: content-box; /* or `border-box` */
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: bold;
+
+        &::placeholder {
+          color: inherit;
+          font-weight: normal;
+        }
+      }
+
+      button {
+        cursor: pointer;
+        font-size: inherit;
+        font-family: Nourd;
+        background-color: $accentColor;
+        color: black;
+        // -webkit-transition-duration: 0.4s; /* Safari */
+        // transition-duration: 0.4s;
+        padding: 0.7em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border: none;
+        -moz-box-sizing: content-box; /* or `border-box` */
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+      }
+    }
+
+    div {
+      font-size: 14px;
+      font-family: Rubik, sans-serif;
+    }
+  }
+
+  .subscribe {
+    padding: 0.3em;
+    padding-bottom: 1em;
+  }
+
   .underlay {
     position: absolute;
     left: 0;
@@ -387,15 +442,11 @@ body {
     z-index: -1;
   }
 
-  .site-name {
-    display: none;
-  }
-
   .social-icons {
     display: flex;
     flex-direction: row;
     z-index: 10;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
   }
 
   .mooform {
@@ -571,6 +622,10 @@ body {
         font-family: Nourd;
         font-weight: 800;
         padding-bottom: 0.15em;
+
+        &.smaller {
+          font-size: 16px;
+        }
       }
 
       .paragraph {
