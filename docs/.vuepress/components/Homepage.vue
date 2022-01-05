@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="underlay" />
     <div class="home">
       <div class="wrapper">
         <component
@@ -376,6 +377,16 @@ body {
     padding: 2.4rem 2rem 0;
   }
 
+  .underlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 200vh;
+    background-color: black;
+    z-index: -1;
+  }
+
   .site-name {
     display: none;
   }
@@ -674,9 +685,12 @@ body {
         }
 
         .large {
+          max-width: 512px;
+          max-height: 534px;
           width: 302px;
           height: 315px;
           margin: 0;
+          display: block;
 
           @media (max-width: $MQMobile) {
             padding: 0;

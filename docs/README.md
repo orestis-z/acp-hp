@@ -1,6 +1,6 @@
 ---
 layout: Homepage
-description: 'The biography and information about me.'
+description: 'We are from the antimatter universe. Anti CryptoPunks are the NFT antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first AntiVerse project.'
 avatar: /9963.png
 face: /kraken.jpg
 head: 'Hello Particle'

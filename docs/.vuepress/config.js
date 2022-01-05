@@ -1,6 +1,6 @@
 module.exports = {
   title: "Anti CryptoPunks",
-  description: "The description of the site.",
+  description: 'We are from the antimatter universe. Anti CryptoPunks are the NFT antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first AntiVerse project.',
   themeConfig: {
     logo: '/logo-bold.png',
     nav: [
