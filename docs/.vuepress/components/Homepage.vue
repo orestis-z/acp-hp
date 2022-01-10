@@ -410,7 +410,7 @@ body {
       button {
         cursor: pointer;
         font-size: inherit;
-        font-family: Nourd;
+        font-family: Nourd, sans-serif;
         background-color: $accentColor;
         color: black;
         // -webkit-transition-duration: 0.4s; /* Safari */
@@ -623,7 +623,7 @@ body {
 
       .title {
         font-size: 22px;
-        font-family: Nourd;
+        font-family: Nourd, sans-serif;
         font-weight: 800;
         padding-bottom: 0.15em;
 
@@ -932,7 +932,7 @@ body {
         transition-duration: 0.4s;
         cursor: pointer;
         color: white;
-        font-family: Nourd;
+        font-family: Nourd, sans-serif;
 
         &:hover {
           background-color: $btnHvColor;
