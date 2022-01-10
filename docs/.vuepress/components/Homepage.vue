@@ -175,14 +175,14 @@
               </li>
               <li>First community growth stage
                 <em class="info"
-                  >completed when 500 users on both discord and twitter, and 0.1
+                  >completed when 500 organic users on both discord and twitter, and 0.5
                   ETH volume traded</em
                 >
               </li>
               <li>Second growth stage: Social media marketing, influencers & paid
                 promotion
                 <em class="info"
-                  >completed when 5k users on discord and twitter and 1 ETH
+                  >completed when 5k users on discord and twitter and 5 ETH
                   volume traded</em
                 >
               </li>
