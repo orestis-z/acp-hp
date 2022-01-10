@@ -272,6 +272,10 @@
           <a href="https://twitter.com/anti_cryptopunk" target="_blank">
             <img src="/twitter.svg" />
           </a>
+
+          <a href="https://instagram.com/anticryptopunks" target="_blank">
+            <img src="/instagram.svg" />
+          </a>
         </div>
         <div class="subscribe">
           <div class="title smaller"><em>GET ON THE LIST</em></div>
