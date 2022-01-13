@@ -1,6 +1,6 @@
 ---
 layout: Homepage
-description: 'We are from the antimatter universe. Anti CryptoPunks are the NFT antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first AntiVerse project.'
+description: 'We are from the antimatter universe. Anti CryptoPunks are the NFT antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first Antiverse project.'
 avatar: /9963.png
 face: /kraken.jpg
 head: 'Hello Particle'
@@ -26,6 +26,6 @@ actions:
 
 We are from the antimatter universe.
 
-Anti CryptoPunks are the antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first _AntiVerse_ project.
+Anti CryptoPunks are the antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first _Antiverse_ project.
 
 We have NO affiliation with LarvaLabs.

@@ -54,7 +54,7 @@
             collectibles living on the Polygon network. They are a mirror
             project of the original CryptoPunks from LarvaLabs. ACPs is the
             first project that is going to be placed in the
-            <em>Anti</em>-Metaverse a.k.a. <em>AntiVerse</em>.
+            <em>Anti</em>-Metaverse a.k.a. <em>Antiverse</em>.
           </div>
         </div>
         <div class="image-container">
@@ -148,7 +148,7 @@
           <div class="title">THE ANTIVERSE</div>
           <div class="body">
             Owning an Anti CryptoPunk means you will be a part-owner of the
-            <em>AntiVerse</em>. <br />In the antiverse, communities can create
+            <em>Antiverse</em>. <br />In the antiverse, communities can create
             anti-projects such as anti-NFTs that have inspirations but are
             different than their mirror projects.<br /><br />
             Our anti-members will have a huge impact on the antiverse's
@@ -170,13 +170,13 @@
             We are in this for the long haul. <br /><br />
             We have set up some goalposts for ourselves: <br />
             <ul>
-              <li class="done">Mining and early adaptors
+              <li class="done">Minting and early adopters
                 <em class="info">completed when all 10k ACPs minted</em>
               </li>
-              <li>First community growth stage
+              <li class="done">First community growth stage
                 <em class="info"
-                  >completed when 500 organic users on both discord and twitter, and 0.5
-                  ETH volume traded</em
+                  >completed when 500 organic users on both discord and twitter,
+                  and 0.5 ETH volume traded</em
                 >
               </li>
               <li>Second growth stage: Social media marketing, influencers & paid
@@ -193,9 +193,9 @@
             <br />Here are our sneak-peeks for the future: <br />
             <ul>
               <li>Invest the profits into the creation of the
-                <em>AntiVerse</em> and whitelist all ACP holders
+                <em>Antiverse</em> and whitelist all ACP holders
               </li>
-              <li>Build partnerships and add more anti-projects to the AntiVerse
+              <li>Build partnerships and add more anti-projects to the Antiverse
               </li>
             </ul>
           </div>
@@ -273,9 +273,9 @@
             <img src="/twitter.svg" />
           </a>
 
-          <a href="https://instagram.com/anticryptopunks" target="_blank">
+          <!-- <a href="https://instagram.com/anticryptopunks" target="_blank">
             <img src="/instagram.svg" />
-          </a>
+          </a> -->
         </div>
         <div class="subscribe">
           <div class="title smaller"><em>GET ON THE LIST</em></div>

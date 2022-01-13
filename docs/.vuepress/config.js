@@ -1,12 +1,13 @@
 module.exports = {
   title: "Anti CryptoPunks",
-  description: 'We are from the antimatter universe. Anti CryptoPunks are the NFT antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first AntiVerse project.',
+  description: 'We are from the antimatter universe. Anti CryptoPunks are the NFT antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first Antiverse project.',
   themeConfig: {
     logo: '/logo-bold.png',
     nav: [
       { text: "Buy a Punk", link: "/#buy" },
       { text: "Roadmap", link: "/#roadmap" },
       { text: "Team", link: "/#team" },
+      { text: "Rarity", link: "https://rarity.anticryptopunks.com" },
       { text: "Discord", link: "https://discord.gg/WvGnnXQPV5" },
       { text: "OpenSea", link: "https://opensea.io/collection/anti-cryptopunks" },
       { text: "Twitter", link: "https://twitter.com/anti_cryptopunk" }
@@ -14,7 +15,7 @@ module.exports = {
     sidebar: {
       '/guide/': genSidebarConfig('Guide')
     },
-    lastUpdated: "01-04-2022"
+    lastUpdated: "01-13-2022"
   },
 
   markdown: {
