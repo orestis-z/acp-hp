@@ -15,7 +15,7 @@ module.exports = {
     sidebar: {
       '/guide/': genSidebarConfig('Guide')
     },
-    lastUpdated: "01-13-2022"
+    lastUpdated: "Last Updated"
   },
 
   markdown: {
@@ -26,12 +26,6 @@ module.exports = {
   },
 
   plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': '' // UA-00000000-0
-      }
-    ],
     'vuepress-plugin-smooth-scroll'
   ]
 };

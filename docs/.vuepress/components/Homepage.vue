@@ -9,7 +9,7 @@
           v-bind="bgProps"
         ></component>
         <div class="avatar">
-          <img :src="$withBase(data.avatar)" alt="" />
+          <img :src="$withBase(data.avatar)" alt="avatar" />
         </div>
         <div class="card">
           <div class="bio">
@@ -59,12 +59,12 @@
         </div>
         <div class="image-container">
           <div>
-            <img src="/6594.png" />
-            <img src="/3477.png" />
+            <img src="/6594.png" alt="#6594" />
+            <img src="/3477.png" alt="#3477" />
           </div>
           <div>
-            <img src="/7804.png" />
-            <img src="/9280.png" />
+            <img src="/7804.png" alt="#7804" />
+            <img src="/9280.png" alt="#9280" />
           </div>
         </div>
       </div>
@@ -80,6 +80,7 @@
             <a
               href="https://opensea.io/collection/anti-cryptopunks"
               target="_blank"
+              rel="noopener noreferrer"
               ><div class="title">BUY AN ANTI CRYPTOPUNK ON OPENSEA</div></a
             >
           </div>
@@ -99,19 +100,19 @@
           <div class="large">
             <div class="image-container-info">
               <div class="info-container">
-                <img class="info" src="/info/2.png" />
+                <img class="info" src="/info/2.png" alt="#4015 photo" />
                 10,000 provably-rare Anti CryptoPunk tokens
               </div>
               <div class="info-container">
-                <img class="info" src="/info/1.png" />
+                <img class="info" src="/info/1.png" alt="antifam" />
                 Commercial usage rights given to the holder over their NFT
               </div>
               <div class="info-container">
-                <img class="info" src="/info/3.png" />
+                <img class="info" src="/info/3.png" alt="anticoin" />
                 Early whitelist access for anti-project airdrops
               </div>
               <div class="info-container">
-                <img class="info" src="/info/4.png" />
+                <img class="info" src="/info/4.png" alt="antistar" />
                 Part-ownership of the antiverse
               </div>
             </div>
@@ -120,21 +121,21 @@
             <div class="image-container-info">
               <div class="image-container-helper">
                 <div class="info-container">
-                  <img class="info" src="/info/2.png" />
+                  <img class="info" src="/info/2.png" alt="#4015 photo" />
                   10,000 provably-rare Anti CryptoPunk tokens
                 </div>
                 <div class="info-container">
-                  <img class="info" src="/info/1.png" />
+                  <img class="info" src="/info/1.png" alt="antifam" />
                   Commercial usage rights given to the holder over their NFT
                 </div>
               </div>
               <div class="image-container-helper">
                 <div class="info-container">
-                  <img class="info" src="/info/3.png" />
+                  <img class="info" src="/info/3.png" alt="anticoin" />
                   Early whitelist access for anti-project airdrops
                 </div>
                 <div class="info-container">
-                  <img class="info" src="/info/4.png" />
+                  <img class="info" src="/info/4.png" alt="antistar" />
                   Part-ownership of the antiverse
                 </div>
               </div>
@@ -147,18 +148,20 @@
         <div class="paragraph">
           <div class="title">THE ANTIVERSE</div>
           <div class="body">
+            The <em>Antiverse</em> derives from the ancient yin and yang, for
+            each good, there is bad, for each positive there is a negative.<br />
+            "Anti" is also a way to shout out for anti-oppression, anti-racism,
+            anti-sexism, and anti-harassment.<br /><br />
             Owning an Anti CryptoPunk means you will be a part-owner of the
-            <em>Antiverse</em>. <br />In the antiverse, communities can create
-            anti-projects such as anti-NFTs that have inspirations but are
-            different than their mirror projects.<br /><br />
-            Our anti-members will have a huge impact on the antiverse's
-            direction: one vote per NFT owned.<br />
+            antiverse. <br />The antiverse is a safe space where communities can
+            create anti-projects such as anti-NFTs that have inspirations but
+            are different than their mirror projects.<br /><br />
             Holders will also get access to our exclusive channels, and be the
             first to hear about new anti-projects and giveaways.
           </div>
         </div>
         <div class="image-container">
-          <img class="large" src="/animated-promo.gif" />
+          <img class="large" src="/animated-promo.gif" alt="animated antifam" />
         </div>
       </div>
       <div class="divider" />
@@ -201,7 +204,7 @@
           </div>
         </div>
         <div class="image-container no-min-width">
-          <img class="largevar" src="/shirt1magic.png" />
+          <img class="largevar" src="/shirt1magic.png" alt="antishirt" />
         </div>
       </div>
       <div class="divider" />
@@ -225,7 +228,10 @@
                 >We're looking for more people to join our team!<br />
                 Interested?
                 <em
-                  ><a href="https://discord.gg/WvGnnXQPV5" target="_blank"
+                  ><a
+                    href="https://discord.gg/WvGnnXQPV5"
+                    target="_blank"
+                    rel="noopener"
                     >JOIN OUR DISCORD</a
                   ></em
                 >
@@ -236,10 +242,10 @@
         </div>
         <div class="image-container narrow">
           <div class="pad">
-            <img src="/3477.png" />
+            <img src="/3477.png" alt="#3477" />
           </div>
           <div>
-            <img class="pad" src="/4015.png" />
+            <img class="pad" src="/4015.png" alt="#4015" />
           </div>
         </div>
         <div class="joinus small">
@@ -247,7 +253,10 @@
             >We're looking for more people to join our team!<br />
             Interested?
             <em
-              ><a href="https://discord.gg/WvGnnXQPV5" target="_blank"
+              ><a
+                href="https://discord.gg/WvGnnXQPV5"
+                target="_blank"
+                rel="noopener"
                 >JOIN OUR DISCORD</a
               ></em
             >
@@ -258,19 +267,28 @@
       <div class="divider strong" />
       <div class="subsection wide">
         <div class="social-icons">
-          <a href="https://discord.gg/WvGnnXQPV5" target="_blank">
-            <img src="/discord.svg" />
+          <a
+            href="https://discord.gg/WvGnnXQPV5"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="/discord.svg" alt="discord" />
           </a>
 
           <a
             href="https://opensea.io/collection/anti-cryptopunks"
+            rel="noopener noreferrer"
             target="_blank"
           >
-            <img src="/opensea.svg" />
+            <img src="/opensea.svg" alt="opensea" />
           </a>
 
-          <a href="https://twitter.com/anti_cryptopunk" target="_blank">
-            <img src="/twitter.svg" />
+          <a
+            href="https://twitter.com/anti_cryptopunk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/twitter.svg" alt="twitter" />
           </a>
 
           <!-- <a href="https://instagram.com/anticryptopunks" target="_blank">
@@ -306,7 +324,7 @@
           </mailchimp-subscribe>
         </div>
         <small><a href="/terms/">Terms & Conditions</a></small>
-        <small>© 2022 AntiMatter Labs LLC</small>
+        <small>© 2022 AntiMatter Labs</small>
       </div>
     </div>
     <div class="endline" />
@@ -335,15 +353,37 @@ export default {
       return this.$page.frontmatter;
     },
   },
+  beforeMount() {},
   mounted() {
     import("particles-bg-vue").then((module) => {
       this.particlesBgComp = module.ParticlesBg;
     });
 
+    let gScript = document.createElement("script");
+    gScript.setAttribute(
+      "src",
+      "https://www.googletagmanager.com/gtag/js?id=G-HMEVSCXVSZ"
+    );
+    document.head.appendChild(gScript);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-HMEVSCXVSZ");
+
     const headerlinks = document.getElementsByClassName("nav-link external");
     for (let item of headerlinks) {
-      if (~item.textContent.indexOf("Discord")) {
+      if (~item.textContent.indexOf("Discord"))
         item.setAttribute("rel", "noopener");
+    }
+
+    const tags = document.getElementsByTagName("a");
+    for (let item of tags) {
+      if (!item.getAttribute("rel")) {
+        if (~item.textContent.indexOf("Discord"))
+          item.setAttribute("rel", "noopener");
+        else item.setAttribute("rel", "noopener noreferrer");
       }
     }
   },
@@ -747,7 +787,7 @@ body {
           max-width: 512px;
           max-height: 534px;
           width: 302px;
-          height: 315px;
+          height: auto;
           margin: 0;
           display: block;
 
@@ -755,13 +795,13 @@ body {
             padding: 0;
             margin-top: 0.6vw;
             width: calc(100vw - 6em);
-            height: calc(104vw - 6em);
+            height: auto;
             border-radius: 2vw;
           }
 
           @media (max-width: $MQMobileNarrow) {
             width: calc(100vw - 2em);
-            height: calc(104vw - 2em);
+            height: auto;
           }
         }
 
@@ -775,15 +815,15 @@ body {
           @media (max-width: $MQMobile) {
             padding: 0;
             margin-top: 0.6vw;
-            width: calc(83vw - 6em);
-            height: calc(100vw - 6em);
+            width: auto;
+            height: calc(100vw - 7.2em);
             border-radius: 2vw;
             margin-bottom: -0.6em;
           }
 
           @media (max-width: $MQMobileNarrow) {
             width: calc(100vw - 2em);
-            height: calc(121vw - 2em);
+            height: auto;
           }
         }
       }
