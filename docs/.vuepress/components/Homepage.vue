@@ -81,7 +81,9 @@
               href="https://opensea.io/collection/anti-cryptopunks"
               target="_blank"
               rel="noopener noreferrer"
-              ><div class="title">BUY AN ANTI CRYPTOPUNK ON OPENSEA</div></a
+              ><div class="title" style="text-align: center">
+                BUY AN ANTI CRYPTOPUNK ON OPENSEA
+              </div></a
             >
           </div>
         </div>
@@ -162,6 +164,28 @@
         </div>
         <div class="image-container">
           <img class="large" src="/animated-promo.gif" alt="animated antifam" />
+        </div>
+      </div>
+      <div class="divider" />
+      <div class="subsection">
+        <div class="paragraph">
+          <div class="title">COMMUNITY</div>
+          <div class="body">
+            Experience an engaged family, connect with the founders, and get
+            early access to new drops and giveaways.<br />
+            Our anti NFT project is what makes us special, the community around
+            it is what makes us unique!
+          </div>
+        </div>
+        <div class="buynow-accent button">
+          <a
+            href="https://discord.gg/WvGnnXQPV5"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><div class="title" style="text-align: center; border-radius: 5px">
+              JOIN US ON DISCORD
+            </div></a
+          >
         </div>
       </div>
       <div class="divider" />
@@ -649,6 +673,36 @@ body {
           line-height: 130%;
           -webkit-transition-duration: 0.4s; /* Safari */
           color: white;
+
+          &:hover {
+            background-color: white;
+            color: black;
+          }
+
+          a {
+            color: inherit;
+          }
+        }
+      }
+
+      .buynow-accent {
+        color: black;
+        border-radius: 5px;
+        padding-left: 6em;
+        padding-top: 1em;
+
+        @media (max-width: $MQMobile) {
+          padding-left: 0;
+          padding-top: 2em;
+        }
+
+        .title {
+          font-size: 22px;
+          padding: 1em;
+          background-color: #88EC33;
+          line-height: 130%;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          color: black;
 
           &:hover {
             background-color: white;

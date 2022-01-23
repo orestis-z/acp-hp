@@ -12,9 +12,26 @@ module.exports = {
       { text: "OpenSea", link: "https://opensea.io/collection/anti-cryptopunks" },
       { text: "Twitter", link: "https://twitter.com/anti_cryptopunk" }
     ],
-    sidebar: {
-      '/guide/': genSidebarConfig('Guide')
-    },
+    // sidebar: [
+    //     {
+    //       title: 'Group 1',   // required
+    //       path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+    //       collapsable: false, // optional, defaults to true
+    //       sidebarDepth: 1,    // optional, defaults to 1
+    //       children: [
+    //         '/#roadmap'
+    //       ]
+    //     },
+    //     {
+    //       title: 'Group 2',
+    //       children: [ /* ... */ ],
+    //       initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+    //     }
+    //   ],
+    // {
+    // //   '/guide/': genSidebarConfig('Guide')
+
+    // },
     lastUpdated: "Last Updated"
   },
 
@@ -30,18 +47,18 @@ module.exports = {
   ]
 };
 
-function genSidebarConfig (title) {
-  return [
-    {
-      title,
-      collapsable: false,
-      children: [
-        '',
-        'getting-started',
-        'customize',
-        'advanced',
-      ]
-    }
-  ]
-}
+// function genSidebarConfig (title) {
+//   return [
+//     {
+//       title,
+//       collapsable: false,
+//       children: [
+//         '',
+//         'getting-started',
+//         'customize',
+//         'advanced',
+//       ]
+//     }
+//   ]
+// }
 
