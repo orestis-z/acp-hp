@@ -150,16 +150,14 @@
         <div class="paragraph">
           <div class="title">THE ANTIVERSE</div>
           <div class="body">
-            The <em>Antiverse</em> derives from the ancient yin and yang, for
+            The <em>Antiverse</em> derives from the ancient yin and yang. For
             each good, there is bad, for each positive there is a negative.<br />
             "Anti" is also a way to shout out for anti-oppression, anti-racism,
             anti-sexism, and anti-harassment.<br /><br />
             Owning an Anti CryptoPunk means you will be a part-owner of the
             antiverse. <br />The antiverse is a safe space where communities can
             create anti-projects such as anti-NFTs that have inspirations but
-            are different than their mirror projects.<br /><br />
-            Holders will also get access to our exclusive channels, and be the
-            first to hear about new anti-projects and giveaways.
+            are different than their mirror projects.
           </div>
         </div>
         <div class="image-container">
