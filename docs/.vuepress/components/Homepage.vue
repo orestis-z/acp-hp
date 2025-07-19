@@ -59,12 +59,12 @@
         </div>
         <div class="image-container">
           <div>
-            <img src="/6594.png" alt="#6594" />
-            <img src="/3477.png" alt="#3477" />
+            <img src="6594.png" alt="#6594" />
+            <img src="3477.png" alt="#3477" />
           </div>
           <div>
-            <img src="/7804.png" alt="#7804" />
-            <img src="/9280.png" alt="#9280" />
+            <img src="7804.png" alt="#7804" />
+            <img src="9280.png" alt="#9280" />
           </div>
         </div>
       </div>
@@ -102,19 +102,19 @@
           <div class="large">
             <div class="image-container-info">
               <div class="info-container">
-                <img class="info" src="/info/2.png" alt="#4015 photo" />
+                <img class="info" src="info/2.png" alt="#4015 photo" />
                 10,000 provably-rare Anti CryptoPunk tokens
               </div>
               <div class="info-container">
-                <img class="info" src="/info/1.png" alt="antifam" />
+                <img class="info" src="info/1.png" alt="antifam" />
                 Commercial usage rights given to the holder over their NFT
               </div>
               <div class="info-container">
-                <img class="info" src="/info/3.png" alt="anticoin" />
+                <img class="info" src="info/3.png" alt="anticoin" />
                 Early whitelist access for anti-project airdrops
               </div>
               <div class="info-container">
-                <img class="info" src="/info/4.png" alt="antistar" />
+                <img class="info" src="info/4.png" alt="antistar" />
                 Part-ownership of the antiverse
               </div>
             </div>
@@ -123,21 +123,21 @@
             <div class="image-container-info">
               <div class="image-container-helper">
                 <div class="info-container">
-                  <img class="info" src="/info/2.png" alt="#4015 photo" />
+                  <img class="info" src="info/2.png" alt="#4015 photo" />
                   10,000 provably-rare Anti CryptoPunk tokens
                 </div>
                 <div class="info-container">
-                  <img class="info" src="/info/1.png" alt="antifam" />
+                  <img class="info" src="info/1.png" alt="antifam" />
                   Commercial usage rights given to the holder over their NFT
                 </div>
               </div>
               <div class="image-container-helper">
                 <div class="info-container">
-                  <img class="info" src="/info/3.png" alt="anticoin" />
+                  <img class="info" src="info/3.png" alt="anticoin" />
                   Early whitelist access for anti-project airdrops
                 </div>
                 <div class="info-container">
-                  <img class="info" src="/info/4.png" alt="antistar" />
+                  <img class="info" src="info/4.png" alt="antistar" />
                   Part-ownership of the antiverse
                 </div>
               </div>
@@ -161,7 +161,7 @@
           </div>
         </div>
         <div class="image-container">
-          <img class="large" src="/animated-promo.gif" alt="animated antifam" />
+          <img class="large" src="animated-promo.gif" alt="animated antifam" />
         </div>
       </div>
       <div class="divider" />
@@ -226,7 +226,7 @@
           </div>
         </div>
         <div class="image-container no-min-width">
-          <img class="largevar" src="/shirt1magic.png" alt="antishirt" />
+          <img class="largevar" src="shirt1magic.png" alt="antishirt" />
         </div>
       </div>
       <div class="divider" />
@@ -264,10 +264,10 @@
         </div>
         <div class="image-container narrow">
           <div class="pad">
-            <img src="/3477.png" alt="#3477" />
+            <img src="3477.png" alt="#3477" />
           </div>
           <div>
-            <img class="pad" src="/4015.png" alt="#4015" />
+            <img class="pad" src="4015.png" alt="#4015" />
           </div>
         </div>
         <div class="joinus small">
@@ -294,7 +294,7 @@
             target="_blank"
             rel="noopener"
           >
-            <img src="/discord.svg" alt="discord" />
+            <img src="discord.svg" alt="discord" />
           </a>
 
           <a
@@ -302,7 +302,7 @@
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src="/opensea.svg" alt="opensea" />
+            <img src="opensea.svg" alt="opensea" />
           </a>
 
           <a
@@ -310,11 +310,11 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/twitter.svg" alt="twitter" />
+            <img src="twitter.svg" alt="twitter" />
           </a>
 
           <!-- <a href="https://instagram.com/anticryptopunks" target="_blank">
-            <img src="/instagram.svg" />
+            <img src="instagram.svg" />
           </a> -->
         </div>
         <div class="subscribe">
