@@ -1,6 +1,7 @@
 module.exports = {
   title: "Anti CryptoPunks",
   description: 'We are from the antimatter universe. ACPs are the NFT antiparticles of the corresponding particles in "ordinary" CryptoPunks and the first Antiverse project.',
+  base: '/anticryptopunks/', // <-- important
   themeConfig: {
     logo: '/logo-bold.png',
     nav: [
